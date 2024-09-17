@@ -24,10 +24,10 @@ void reverse_listint(listint_t **head)
 }
 
 /**
- * is_palindrome - checks if a linked list is a palindrome
- * @head: double pointer to the linked list
+ * is_palindrome - checks if a singly linked list is a palindrome
+ * @head: pointer to pointer to the first node in the list
  *
- * Return: 1 if it is, 0 if not
+ * Return: 1 if the list is a palindrome, 0 if not
  */
 int is_palindrome(listint_t **head)
 {
