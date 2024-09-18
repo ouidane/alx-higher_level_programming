@@ -19,7 +19,6 @@ void print_python_bytes(PyObject *p) {
     printf("  size: %zd\n", size);
     printf("  trying string: %s\n", bytes);
 
-    // Print the first X bytes, where X is up to 10 or less
     Py_ssize_t limit = size > 10 ? 10 : size;
     printf("  first %zd bytes:", limit + 1);
     for (Py_ssize_t i = 0; i <= limit; i++) {
@@ -32,9 +31,6 @@ void print_python_bytes(PyObject *p) {
  * print_python_list - Prints basic info about Python lists.
  * @p: Pointer to a Python object (expected to be a list).
  */
-#include <Python.h>
-#include <stdio.h>
-
 void print_python_list(PyObject *p) {
     if (!PyList_Check(p)) {
         printf("[ERROR] Invalid List Object\n");
