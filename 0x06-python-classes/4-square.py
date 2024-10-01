@@ -4,6 +4,7 @@ This module defines a class Square with a private instance attribute: size,
 and provides getter and setter methods to manage its value.
 """
 
+
 class Square:
     """A class that defines a square by its size and computes its area."""
     
