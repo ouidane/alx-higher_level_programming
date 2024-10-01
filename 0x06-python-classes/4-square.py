@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-"""
-This module defines a class Square with a private instance attribute: size,
-and provides getter and setter methods to manage its value.
-"""
+
+"""This module defines a class Square with a private instance attribute: size,"""
 
 
 class Square:
