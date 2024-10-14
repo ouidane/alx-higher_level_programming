@@ -8,6 +8,6 @@ class MyList(list):
         super().__init__()
 
     def print_sorted(self):
-        """print a sorted list"""
+        """Print a sorted list"""
         ascended_list = sorted(self)
         print(ascended_list)
