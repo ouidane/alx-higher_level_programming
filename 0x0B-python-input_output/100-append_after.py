@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a text file insertion function."""
+"""Define an append_after function."""
 
 
 def append_after(filename="", search_string="", new_string=""):
