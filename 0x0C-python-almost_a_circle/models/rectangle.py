@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Defines a rectangle class."""
+"""Defines the Rectangle class"""
 from models.base import Base
 
 
 class Rectangle(Base):
-    """Represent a rectangle."""
+    """Represent the rectangle"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initialize a new Rectangle.
@@ -152,7 +152,7 @@ class Rectangle(Base):
         }
 
     def __str__(self):
-        """Return the print() and str() representation of the Rectangle."""
+        """Return the print() and str() representation of a Rectangle."""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
                                                        self.x, self.y,
                                                        self.width, self.height)
