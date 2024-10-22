@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""test add"""
+"""testing function add"""
 
 
 def add(a, b):
-    """ Add two numbers
+    """ Addition of two numbers
     Args:
-        a (int): The first number
-        b (int): The second number
+        a (int): First number
+        b (int): Second number
     Returns:
-        int: The result of number
+        int: The addition of a and b
     """
     return (a + b)
