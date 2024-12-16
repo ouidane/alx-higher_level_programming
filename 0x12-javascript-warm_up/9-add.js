@@ -1,11 +1,7 @@
 #!/usr/bin/node
-
-const firstArg = Number(process.argv[2]);
-const secondArg = Number(process.argv[3]);
-
-function add(a, b) {
-  const c = a + b;
-  console.log(c);
+function add (a, b) {
+  const result = a + b;
+  console.log(result);
 }
 
-add(firstArg, secondArg);
+add(Number(process.argv[2]), Number(process.argv[3]));
