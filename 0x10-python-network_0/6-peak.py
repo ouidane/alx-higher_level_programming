@@ -3,7 +3,7 @@
 
 
 def find_peak(list_of_integers):
-    """Finds a peak in a list of unsorted integers"""
+    """Finds a peak in list_of_integers and returns it as an int."""
 
     if list_of_integers is None or list_of_integers == []:
         return None
