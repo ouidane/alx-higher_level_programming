@@ -8,4 +8,3 @@ if __name__ == "__main__":
     payload = {"email": sys.argv[2]}
     response = post(sys.argv[1], data=payload)
     print(response.text)
-    
